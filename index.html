@@ -7,6 +7,7 @@
       <a-assets>
         <img id="losmetales" src="metalsuel.jpg">
         <img id="yosemite" src="yosemity.jpg">
+        <a-asset-item id="xbot" src="xbot.glb"></a-asset-item>
       </a-assets>
       <a-sphere position="0 1.25 -5" radius="1" color="#EF2D5E"
         animation="property: position; to: 3 1.25 -5;
@@ -23,6 +24,7 @@
       <a-entity position="-1 2 0"
             light="type: directional; intensity: 0.6; color: #FFF"></a-entity>
       <a-entity light="type: ambient; intensity: 1; color: #BBB"></a-entity>
+      <a-entity gltf-model="#xbot" position="0 0 -3"></a-entity>
     </a-scene>
   </body>
 </html>
